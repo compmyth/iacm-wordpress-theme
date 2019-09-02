@@ -1,3 +1,3 @@
-# iacm-wordpress-theme
+# IACM Wordpress Theme
 
-iacm wordpress theme
+Based on 2013
