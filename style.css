@@ -57,6 +57,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * ----------------------------------------------------------------------------
  */
 
+
+
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing:    border-box;
@@ -816,7 +818,7 @@ img.wp-smiley,
  */
 
 .site-header {
-	position: relative;
+	position: relative;	
 }
 
 .site-header .home-link {
@@ -824,9 +826,10 @@ img.wp-smiley,
 	display: block;
 	margin: 0 auto;
 	max-width: 1080px;
-	min-height: 230px;
+	min-height: 172px;
 	padding: 0 20px;
 	text-decoration: none;
+	background-position: top left; 
 	width: 100%;
 }
 
@@ -885,7 +888,7 @@ div.nav-menu > ul {
 .nav-menu li a:hover,
 .nav-menu li:focus > a,
 .nav-menu li a:focus {
-	background-color: #220e10;
+	background-color: #791215;
 	color: #fff;
 }
 
@@ -922,7 +925,7 @@ ul.nav-menu ul a:hover,
 .nav-menu ul ul a:hover,
 ul.nav-menu ul a:focus,
 .nav-menu ul ul a:focus {
-	background-color: #db572f;
+	background-color: #791215;
 }
 
 ul.nav-menu li:hover > ul,
@@ -939,7 +942,7 @@ ul.nav-menu .focus > ul,
 .nav-menu .current_page_ancestor > a,
 .nav-menu .current-menu-item > a,
 .nav-menu .current-menu-ancestor > a {
-	color: #bc360a;
+	color: #791215;
 	font-style: italic;
 }
 
@@ -949,7 +952,7 @@ ul.nav-menu .focus > ul,
 
 /* Navbar */
 .navbar {
-	background-color: #f7f5e7;
+	background-color: #ffbe88;
 	margin: 0 auto;
 	max-width: 1600px;
 	width: 100%;
@@ -2638,8 +2641,8 @@ footer.entry-meta {
  */
 
 .site-footer {
-	background-color: #e8e5ce;
-	color: #686758;
+	background-color: #ffbe88;
+	color: #791215;
 	font-size: 14px;
 	text-align: center;
 }
@@ -2650,11 +2653,11 @@ footer.entry-meta {
 }
 
 .site-footer a {
-	color: #686758;
+	color: #791215;
 }
 
 .site-footer .sidebar-container {
-	background-color: #220e10;
+	background-color: #791215;
 	padding: 20px 0;
 }
 
@@ -3312,4 +3315,10 @@ footer.entry-meta {
 	.comment-reply-login {
 		color: #333;
 	}
+}
+
+/* invisibilise the site title and tagline */
+.site-title, .site-description {
+    opacity: 0;
+    margin-bottom: -40px;
 }
